@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Victor Eke-Portfolio</title>
+        <!-- Link to bootstrap css CDN -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+        <!-- link to bootstrap js CDN -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+        crossorigin="anonymous"></script>
+        <!-- link to bootstrap icons  -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+        <!-- link to custom css  -->
+         <link rel="stylesheet" href="styles.css">
+         <!-- link to google font poppins  -->
+         <link rel="preconnect" href="https://fonts.googleapis.com">
+         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+         <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+         <!-- link to font awesome v4 -->
+         <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+         <!-- link to animation on scroll  -->
+         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <!-- link to typing animation -->
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+        <!-- link to web icon  -->
+         <link rel="icon" href="images/6FC196DF-6A9C-439E-811A-73DB77CF971F.PNG">
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm bg-body-tertiary border-bottom fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Victor's Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mynavbar">
+                <ul class="navbar-nav ms-auto gap-3">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#tech">Technologies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#proj">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#cont">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <i class="bi bi-sun fs-4" id="lightmode"></i>
+                    </li>
+                    <li class="nav-item">
+                       <img src="images/6FC196DF-6A9C-439E-811A-73DB77CF971F.PNG" class="img-fluid rounded-pill specialimg" style="width: 40px; height: 40px;" alt="">
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="card mx-auto col-9  mt-5 border-0 d-none d-md-block">
+        <img class="card-img-top mt-5" src="images/bgimage.PNG" alt="Card image">
+        <div class="card-img-overlay d-flex flex-column justify-content-end align-items-start">
+            <h4 class="card-title fw-bolder fs-3">Hi, I'm Victor</h4>
+            <p class="card-text" id="typed-text"></p>
+            <a href="Victor'sResume.pdf" download="Victor'sResume.pdf" class="btn btn-primary btn-sm">Download resume</a>
+        </div>
+    </div>
+    <div class="container d-block d-md-none mt-5">
+        <div class="card border-0" style="width:380px">
+            <img class="card-img-top mt-5 img-fluid" src="images/491E6D46-B8D0-4C3C-82D8-479D87E85258.PNG" alt="Card image">
+            <div class="card-body">
+                <h4 class="card-title">Hi, I'm Victor</h4>
+                <p class="card-text" id="typed-text">Frontend Developer</p>
+                <a href="Victor'sResume.pdf" download="Victor'sResume.pdf" class="btn btn-primary btn-sm" id="triggerdown">Download Resume</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-5" id="about">
+        <h4 class="text-bold">About Me</h4>
+        <p class="fs-6">I'm a passionate frontend developer currently taking an on-site course to familiarize myself with backend technology and become a Full-Stack Developer. I have a niche for good looking and appealing websites and well structured code. My expertise lies in translating design concepts into pixel perfect, responsive web applications using modern technologies.</p>
+    </div>
+
+    <div class="container mt-5"  id="tech">
+        <h4 class="text-bold text-center">Technologies</h4>
+        <div class="hold d-flex flex-column flex-md-row justify-content-between gap-5">
+            <div class="skills d-flex flex-column align-items-center gap-2" data-aos="fade-left">
+                <i class="fa fa-html5 fs-3" aria-hidden="true"></i>
+                <span>HTML</span>
+            </div>
+            <div class="skills d-flex flex-column align-items-center gap-2" data-aos="fade-right">
+                <i class="fa fa-css3 fs-3" aria-hidden="true"></i>
+                <span>CSS</span>
+            </div>
+            <div class="skills d-flex flex-column align-items-center gap-0" data-aos="fade-left">
+                <i class="bi bi-javascript fs-3 text-warning"></i>
+                <span>JavaScript</span>
+            </div>
+            <div class="skills d-flex flex-column align-items-center gap-0" data-aos="fade-right">
+                <i class="bi bi-git fs-3"></i>
+                <span>Git</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-5" id="proj">
+        <h4 class="text-bold">Projects</h4>
+        <div class="holder d-flex flex-column flex-md-row justify-content-between gap-3">
+            <div class="evently">
+                <a href="https://evently-gamma-ten.vercel.app/"><img src="images/eventlyimg.JPG" class="img-fluid rounded" alt=""></a>
+                <p class="myp">Evently is a fully responsive web app. It is the classic show and tell of major tech conferences with a countdown to the next big event</p>
+                <span class="btn btn-secondary btn-sm rounded mt-4 mx-2">HTML</span>
+                <span class="btn btn-secondary btn-sm rounded mt-4 mx-2">CSS</span>
+                <span class="btn btn-secondary btn-sm rounded mt-4 mx-2">JavaScript</span>
+               <a href="https://evently-gamma-ten.vercel.app/"><span class="btn btn-primary btn-sm rounded mt-4 mx-2">Visit live site<i
+                    class="bi bi-box-arrow-up-right mx-2"></i></span></a>
+            </div>
+            <div class="evently">
+              <a href="https://ticket-master-murex.vercel.app/index.html"><img src="images/ticketmasterimg.JPG" class="img-fluid rounded" alt=""></a>
+              <p class="myp">Ticket master is a fully responsive web app that allows users to simulate booking an itinerary. Featuring the option to even download receipts.</p>
+                <span class="btn btn-secondary btn-sm rounded mt-4 mx-2">HTML</span>
+                <span class="btn btn-secondary btn-sm rounded mt-4 mx-2">CSS</span>
+                <span class="btn btn-secondary btn-sm rounded mt-4 mx-2">JavaScript</span>
+                <a href="https://ticket-master-murex.vercel.app/index.html"><span class="btn btn-primary btn-sm rounded mt-4 mx-2">Visit live site<i
+                            class="bi bi-box-arrow-up-right mx-2"></i></span></a>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-5" id="cont">
+        <h4 class="text-bold">Contact</h4>
+        <form action="" class="col-12" id="contact-form">
+            <div class="mb-3 mt-3 col-md-4 col-8">
+                <label for="name" class="form-label">Name:</label>
+                <input type="text" class="form-control col-md-4 col-8" id="name" placeholder="Your Name" name="user_name" style="height: 70px; border: 2px solid rgb(12, 109, 252);">
+            </div>
+            <div class="mb-3 col-md-4 col-8">
+                <label for="email" class="form-label">Email:</label>
+                <input type="email" class="form-control" id="email" placeholder="Your Email" name="user_email" style="height: 70px; border: 2px solid rgb(12, 109, 252)">
+            </div>
+            <div class="mb-3 col-md-10 col-8">
+                <label for="message" class="form-label"></label>
+                <textarea name="message" id="mssg" placeholder="Your Message" rows="12" cols="30" style="width: 100%; border: 2px solid rgb(12, 109, 252)" class="rounded"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send</button>
+          </form>
+    </div>
+    <div class="mt-4"></div>
+    <footer class="container mt-5">
+        <div class="socials  d-flex flex-md-row justify-content-around gap-5">
+           <a href="https://github.com/Enyinnaya-x" class="text-white"><i class="bi bi-github" id="mygit"></i></a>
+           <a href="https://x.com/enyithedev?s=21" class="text-black"><i class="bi bi-twitter-x"></i></a>
+           <a href="https://www.linkedin.com/in/victor-eke-133288359?" class="text-primary"><i class="bi bi-linkedin"></i></a> 
+        </div>
+        <p class="text-center text-secondary myp">&copy; 2025 Victor. All rights reserved.</p>
+    </footer>
+</body>
+    <script>
+        AOS.init();
+    </script>
+    <script>
+        const typed = new Typed('#typed-text', {
+            strings: ['Frontend Developer.', 'Full-Stack Developer.', 'Freelancer.'],
+            typeSpeed: 60,
+            backSpeed: 20,
+            backDelay: 1000,
+            loop: true
+        });
+    </script>
+    <script type="text/javascript" src="https://cdn.emailjs.com/sdk/3.2/email.min.js"></script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init('jsmGrDo0tdNxBo0Tb');
+        });
+
+        document.getElementById('contact-form').addEventListener('submit', function (event) {
+                event.preventDefault();
+
+                emailjs.sendForm('service_hq1w0ce', 'template_qi9gymo', this)
+                    .then(function () {
+                        alert('Email sent successfully!');
+                    }, function (error) {
+                        alert('Failed to send email: ' + JSON.stringify(error));
+                    });
+            });
+    </script>
+    <script>
+     document.addEventListener('DOMContentLoaded', function () {
+            const themeIcon = document.getElementById('lightmode');
+
+            themeIcon.addEventListener('click', function () {
+                const html = document.documentElement;
+                const currentTheme = html.getAttribute('data-bs-theme');
+                const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+                html.setAttribute('data-bs-theme', newTheme);
+
+                // Optional: toggle icon class too
+                themeIcon.classList.toggle('bi-sun');
+                themeIcon.classList.toggle('bi-moon-fill');
+                document.getElementById("mygit").style.color = "black";
+                document.querySelector("navbar").style.background = "white";
+
+            });
+        });
+
+        document.getElementById('triggerdown').addEventListener('click', function () {
+                document.getElementById('download-link').click();
+            });
+    </script>
+</html>

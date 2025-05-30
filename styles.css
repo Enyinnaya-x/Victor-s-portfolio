@@ -1,0 +1,36 @@
+*{
+    font-family: "Poppins", sans-serif;
+}
+
+.specialimg{
+    object-fit: cover;
+}
+.bi-sun{
+    cursor: pointer;
+}
+.covertext{
+    height: 670% !important;
+}
+.fa-css3{
+    color: #1572B6;
+}
+.fa-html5{
+    color: #E34F26;
+}
+.bi-git{
+    color: #F05032;
+}
+.myp{
+    font-size: 14px;
+}
+textarea{
+    background-color: transparent;
+}
+@media(max-width : 768px){
+    .specialcard{
+        display: none;
+    }
+    .specialcardchild{
+        display: none;
+    }
+}
