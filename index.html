@@ -150,7 +150,7 @@
     <div class="mt-4"></div>
     <footer class="container mt-5">
         <div class="socials  d-flex flex-md-row justify-content-around gap-5">
-           <a href="https://github.com/Enyinnaya-x" class="text-white"><i class="bi bi-github" id="mygit"></i></a>
+           <a href="https://github.com/Enyinnaya-x" class=""><i class="bi bi-github active" id="mygit"></i></a>
            <a href="https://x.com/enyithedev?s=21" class="text-black"><i class="bi bi-twitter-x"></i></a>
            <a href="https://www.linkedin.com/in/victor-eke-133288359?" class="text-primary"><i class="bi bi-linkedin"></i></a> 
         </div>
@@ -201,7 +201,7 @@
                 // Optional: toggle icon class too
                 themeIcon.classList.toggle('bi-sun');
                 themeIcon.classList.toggle('bi-moon-fill');
-                document.getElementById("mygit").style.color = "black";
+                document.getElementById("mygit").classList.toggle("active");
                 document.querySelector("navbar").style.background = "white";
 
             });

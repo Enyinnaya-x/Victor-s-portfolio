@@ -26,6 +26,13 @@
 textarea{
     background-color: transparent;
 }
+.bi-github{
+    color: black;
+    
+}
+.active{
+    color: white;
+}
 @media(max-width : 768px){
     .specialcard{
         display: none;
