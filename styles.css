@@ -23,6 +23,10 @@
 .myp{
     font-size: 14px;
 }
+.hold{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
 textarea{
     background-color: transparent;
 }
